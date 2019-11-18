@@ -1,7 +1,6 @@
 <?php
 namespace Phreact;
 
-class SelfClosingComponent extends Component {
+class SelfClosingElement extends Element {
     public $isSelfClosing = true;
 }
-

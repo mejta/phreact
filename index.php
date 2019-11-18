@@ -3,7 +3,7 @@ include __DIR__ . '/vendor/autoload.php';
 
 use Phreact\Document;
 
-$document = new Document([
+$document = new Document(
     ['html', [], [
         ['head', [], [
             ['title', [], ['Example title']],
@@ -19,6 +19,6 @@ $document = new Document([
             ['p', [], ['Example paragraph']]
         ]],
     ]],
-]);
+);
 
 $document->render(true);
